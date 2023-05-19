@@ -1,0 +1,153 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #000000;
+  padding: 50px;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.Info-container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.Left-column,
+.Right-column {
+  width: 50%;
+  padding: 0 30px;
+}
+
+.Left-column {
+  border-right: 1px solid #000000;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.Section-container {
+  margin-bottom: 40px;
+}
+
+.Section-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.Experience-item,
+.Education-item {
+  margin-bottom: 30px;
+}
+
+.Experience-item h3,
+.Education-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.Experience-item p,
+.Education-item p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #000000;
+  text-align: center;
+  padding: 20px;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+h2.Proyectos {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Acentos de color */
+body {
+  color: #000000;
+}
+
+.App-header,
+footer {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.carousel__button {
+  color: #000000;
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+
+
+.social-links a {
+  color:white;
+  font-size: 24px;
+  margin-right: 10px;
+}
+.social-links a:hover {
+  color: gray;
+}
+
+/* Diseño responsivo */
+@media (max-width: 768px) {
+  .Info-container {
+    flex-direction: column;
+  }
+
+  .Left-column,
+  .Right-column {
+    width: 100%;
+    padding: 0;
+    border-right: none;
+  }
+
+  .Right-column {
+    margin-top: 30px;
+  }
+}
+
